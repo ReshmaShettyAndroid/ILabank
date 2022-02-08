@@ -23,7 +23,7 @@ public class MainViewModel(application: Application) : AndroidViewModel(applicat
                 labels?.add("Labels:-" + i + "." + j)
             }
             imageDataList = ImageDataClass(url + i, labels)
-            imageModelList?.add(imageDataList)
+            imageModelList?.add(imageDataList)  
 
         }
         return imageModelList;
